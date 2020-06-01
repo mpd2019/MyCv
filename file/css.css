@@ -1,0 +1,229 @@
+@import url("css/font/font.css");
+@import url("css/bootstrap.min.4.5.0.css");
+@import url("https://pro.fontawesome.com/releases/v5.13.0/css/all.css");
+
+body{background-color: #2e2e32!important;}
+
+
+
+/*
+
+
+    box-shadow: 0 2px 6px rgba(0,21,64,.1), 0 10px 20px rgba(0,21,64,.05);
+
+    border-bottom: 1px solid #222424;
+
+    background: #222424;
+
+*/
+
+.myphoto {
+    text-align: center;
+    margin: 13px 0 0 0;
+}
+.nabza {
+  width: 80%;
+  text-align: center;
+  margin: 13px auto;
+  color: #fff;
+  direction: rtl;
+  padding: 13px 16px;
+  font-weight: 700;
+  font-family: 'Tajawal', Pacifico, sans-serif;
+  box-shadow: 0 2px 6px rgba(0,21,64,.1), 0 10px 20px rgba(0,21,64,.05);
+  background: #222424;
+  border-radius: 36px;
+  transform: translate(0px, 10px);
+  transition: all .5s ease;
+  border-left: 2px solid #28a745;
+  border-right: 2px solid #007bff;
+  border-top: 2px solid #dc3545;
+  border-bottom: 2px solid #fd7e14;
+}
+.nabza:hover{  transform: translate(0px,0px);}
+.carousel-inner {
+    border-radius: 30px;
+}
+
+.myphoto img {
+  border-radius: 50%;
+  border: 3px solid #FFF;
+  transition: all .5s ease;
+}
+.myphoto img:hover {
+  box-shadow: 0 0 14px 12px #dae0e542;
+}
+.arod img {
+  border-radius: 15px;
+}
+
+.arod {
+  text-align: center;
+}
+h3.h33 {
+  text-align: center;
+  color: #0a063d;
+}
+
+  .myname {
+  font-family: 'Pacifico', cursive;
+  color: #fff;
+  text-align: center;
+  margin: 20px 0;
+}
+
+footer {
+  background: #222424;
+  text-align: center;
+  padding: 7px 0;
+  color: #fff;
+  margin: 30px 0 0 0;
+}
+footer a{
+  font-family: 'AraAlmBon', cursive , Pacifico;
+  font-size: 17px;
+  background: #6c757d;
+  padding: 1px 15px;
+  border-radius: 36px;
+  color: #fff;}
+  footer a:hover{
+
+    text-decoration: none;
+    color: #ffc107;
+  }
+  footer v {
+    font-weight: 700;
+}
+
+.arodvol {
+  margin: 10px 0;
+  box-shadow: 0 2px 6px rgba(0,21,64,.1), 0 10px 20px rgba(0,21,64,.05);
+  border-bottom: 1px solid #222424;
+  background: #222424;
+  padding: 17px 0;
+  border-radius: 36px;
+  transform: translate(0px, 10px);
+  transition: all .5s ease;
+}
+
+.arodvol:hover{
+  transform: translate(0px, 0px);
+
+}
+a.bton {
+  padding: 3px 15px;
+  border-radius: 36px;
+  font-family: AraAlmBon;
+  transition: all .5s ease;
+  margin: 0px 6px;
+}
+
+a.bton.demo {
+  background: #007bff;
+  color: #fff;
+}
+a.bton.pay {
+  background: #ffc107;
+  color: #495057;
+}
+a.bton.down {
+  background: #28a745;
+  color: #fff;
+}
+a.bton.pay:hover{padding: 3px 30px;text-decoration: none;}
+a.bton.demo:hover{padding: 3px 30px;text-decoration: none;}
+a.bton.down:hover{padding: 3px 30px;text-decoration: none;}
+
+
+h2.mywork {
+  text-align: center;
+  color: #fff;
+}
+svg.bi.bi-asterisk {
+  color: #ffc107;
+}
+h2.mywork v {
+  margin: 0 8px;
+  font-family: AraAlmBon;
+  font-size: 42px;
+}
+h3.h33 {
+  text-align: center;
+  color: #f8f9fa;
+  font-family: JannaL;
+  margin: .5rem 0;
+}
+::-webkit-scrollbar {
+  background-color: #242424;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.53);
+  border-radius: 8px;
+  border: solid #242424;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {  }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {  }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {  }
+
+
+ul.twasol {
+  text-align: center;
+  margin: 2rem auto 1rem auto;
+}
+ul.twasol li {
+  list-style: none;
+  display: inline-block;
+
+}
+
+li .fab {
+  padding: 8px;
+  border: 2px solid #222424;
+  border-radius: 50%;
+  color: #797979;
+  font-size: 20px;
+  margin: 0 6px;
+  transition: all .5s ease;
+  transform: translate(0px, 10px);
+
+}
+li .fab:hover {
+  transform: translate(0px, 0px);
+  color: #fff;
+}
+i.fab.fa-facebook-messenger:hover{border-color: #0074e0;background-color: #0084ff;}
+i.fab.fa-facebook:hover{border-color: #324c82;background-color: #3b5998;}
+i.fab.fa-twitter:hover{border-color: #0d92e3;background-color: #1da1f2;}
+i.fab.fa-instagram:hover{border-color: #a92e74;background-color: #c13584;}
+i.fab.fa-youtube:hover{border-color: #b21c1b;background-color: #cd201f;}
+
+
+h2.twasl {
+  text-align: center;
+  color: #fff;
+  margin:4rem auto 0rem auto;
+}
+svg.bi.bi-asterisk {
+  color: #ffc107;
+}
+h2.twasl v {
+  margin: 0 8px;
+  font-family: AraAlmBon;
+  font-size: 42px;
+}
+h3.h33 {
+  text-align: center;
+  color: #f8f9fa;
+  font-family: JannaL;
+  margin: .5rem 0;
+}
